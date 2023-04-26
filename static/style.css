@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center the container div */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Add this property to display items vertically */
+  }
+  
+  /* Style the title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the description */
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the button */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Change button color on hover */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  

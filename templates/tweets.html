@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detector - Classified Tweets</title>
+</head>
+<body>
+    <h1>Classified Tweets</h1>
+    <ul>
+        {% for tweet in tweets %}
+        <li>
+            <strong>{{ tweet.label }}:</strong> {{ tweet.text }}
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/classify_tweets">Classify More Tweets</a>
+</body>
+</html>
